@@ -1,0 +1,35 @@
+#p1 {
+    background-color: red;
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+thead{
+    background-color: orange;
+}
+#tbodyblue{
+    background-color: aqua;
+}
+
+#tbodygray{
+    background-color: lightgray;
+}
+
+#cs309{
+    background-color: yellow;
+}
+
+#cs307{
+    background-color: lightgreen;
+}
+
+#cs305{
+   background-color: blue;
+}
