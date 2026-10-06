@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html meta lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>My First Contact Form</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="contactHeader">
+                Contact Form
+            </h1>
+
+            <nav id="contactNav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <form id="contactForm" action="/submit" method="post">
+            <br>
+
+            <div id="PersonalData">
+                <label for="Gender" class="align-center">Gender:</label>
+
+                <label>
+                    Male
+                    <input type="radio" name="Gender" value="Male">
+                </label>
+                <label>
+                    Female
+                    <input type="radio" name="Gender" value="Female">
+                </label>
+                <label>
+                    Other
+                    <input type="radio" name="Gender" value="Other">
+                </label>
+
+                <br><br>
+                <label for="Email" class="align-center">Enter Your Email</label>
+                <input type="email" name="Email" placeholder="madakamal140@gmail.com" class="align-center" required>
+
+                <br><br>
+
+                <label for="FullName" class="align-center">Enter Your Full Name:</label>
+                <input type="text" name="FullName" placeholder="Muhammad Kamal" class="align-center" required>
+
+                <br><br>
+
+                <label for="Code" class="align-center">Enter Your Code</label>
+                <input type="number" name="Code" placeholder="2427090" class="align-center" required>
+
+                <br><br>
+
+                <label for="Level" class="align-center">Enter Your Level</label>
+                <input type="number" name="Level" placeholder="3" class="align-center" required>
+
+                <br><br>
+
+                <label for="PhoneNumber" class="align-center">Enter Your Phone Number</label>
+                <input type="number" name="PhoneNumber" placeholder="01068030867" class="align-center" required>
+
+                <br><br>
+
+                <label for="DOB" class="align-center">Enter Your Date Of Birth</label>
+                <input type="date" name="DOB" class="align-center" required>
+
+                <br><br>
+
+                <label for="Specialization" class="align-center">Choose Your Specialization</label>
+                <br>
+                <select class="align-center" required >
+                    <option class="align-center">Choose a Specialization</option>
+                    <option>Mathematics</option>
+                    <option>Mathimatics/Computer Science</option>
+                    <option>Mathimatics/Statistics</option>
+                    <option>Mathimatics/Physics</option>
+                    <option>Computer Science</option>
+                </select>
+            </div>
+
+            <br><br>
+
+            <h3>Choose Course(s) From the Following</h3>
+            <div>
+                <label>
+                    <input type="checkbox" name="Course" value="CS309">
+                    CS309 - System Design
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="Course" value="CS307">
+                    CS307 - Data Bases
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="Course" value="CS305">
+                    CS305 - Algorithms
+                </label>
+            </div>
+
+            <br>
+            <label for="Review">Review of CS309 Project</label>
+            <br>
+            <textarea id="Review" name="Review" rows="4" cols="50">We are in the first project in CS309 (System)... We are learning HTML and CSS in this Lab</textarea>
+
+            <button type="submit" id="Submit">Submit</button>
+        </form>
+
+        <footer class="align-center">
+            <P>&copy; 2026 Cairo University Faculity Of Science</P>
+        </footer>
+    </body>
+</html>

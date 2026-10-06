@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
 #p1 {
     background-color: red;
     display: inline-block;
@@ -32,4 +36,23 @@ thead{
 
 #cs305{
    background-color: blue;
+}
+
+#contactHeader, #contactNav{
+    text-align: center;
+}
+
+.align-center{
+    text-align: center;
+}
+
+#PersonalData{
+    text-align: center;
+}
+
+#Submit{
+ display: block;   
+ margin: 20px auto;
+ background-color: #33ff00;
+ color: rgb(45, 45, 45);
 }
