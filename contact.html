@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html meta lang="en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,67 +24,66 @@
             <br>
 
             <div id="PersonalData">
-                <label for="Gender" class="align-center">Gender:</label>
+                <p class="align-center">Gender:</p>
 
-                <label>
+                <label for="male">
                     Male
-                    <input type="radio" name="Gender" value="Male">
+                    <input type="radio" id="male" name="Gender" value="Male">
                 </label>
-                <label>
+                <label for="female">
                     Female
-                    <input type="radio" name="Gender" value="Female">
+                    <input type="radio" id="female" name="Gender" value="Female">
                 </label>
-                <label>
+                <label for="other">
                     Other
-                    <input type="radio" name="Gender" value="Other">
+                    <input type="radio" id="other" name="Gender" value="Other">
                 </label>
 
                 <br><br>
                 <label for="Email" class="align-center">Enter Your Email</label>
-                <input type="email" name="Email" placeholder="madakamal140@gmail.com" class="align-center" required>
+                <input type="email" id="Email" name="Email" placeholder="madakamal140@gmail.com" class="align-center" required>
 
                 <br><br>
 
                 <label for="FullName" class="align-center">Enter Your Full Name:</label>
-                <input type="text" name="FullName" placeholder="Muhammad Kamal" class="align-center" required>
+                <input type="text" id="FullName" name="FullName" placeholder="Muhammad Kamal" class="align-center" required>
 
                 <br><br>
 
                 <label for="Code" class="align-center">Enter Your Code</label>
-                <input type="number" name="Code" placeholder="2427090" class="align-center" required>
+                <input type="number" id="Code" name="Code" placeholder="2427090" class="align-center" required>
 
                 <br><br>
 
                 <label for="Level" class="align-center">Enter Your Level</label>
-                <input type="number" name="Level" placeholder="3" class="align-center" required>
+                <input type="number" id="Level" name="Level" placeholder="3" class="align-center" required>
 
                 <br><br>
 
                 <label for="PhoneNumber" class="align-center">Enter Your Phone Number</label>
-                <input type="number" name="PhoneNumber" placeholder="01068030867" class="align-center" required>
+                <input type="number" id="PhoneNumber" name="PhoneNumber" placeholder="01068030867" class="align-center" required>
 
                 <br><br>
 
                 <label for="DOB" class="align-center">Enter Your Date Of Birth</label>
-                <input type="date" name="DOB" class="align-center" required>
+                <input type="date" id="DOB" name="DOB" class="align-center" required>
 
                 <br><br>
 
                 <label for="Specialization" class="align-center">Choose Your Specialization</label>
                 <br>
-                <select class="align-center" required >
-                    <option class="align-center">Choose a Specialization</option>
-                    <option>Mathematics</option>
-                    <option>Mathimatics/Computer Science</option>
-                    <option>Mathimatics/Statistics</option>
-                    <option>Mathimatics/Physics</option>
-                    <option>Computer Science</option>
+                <select class="align-center" id="Specialization" required>
+                    <option class="align-center" value="">Choose Your Specialization</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Mathematics/Computer Scince">Mathimatics/Computer Science</option>
+                    <option value="Mathematics/Statistics">Mathimatics/Statistics</option>
+                    <option value="Mathematics/Physics">Mathimatics/Physics</option>
+                    <option value="Computer Science">Computer Science</option>
                 </select>
             </div>
 
             <br><br>
-
-            <h3>Choose Course(s) From the Following</h3>
+            <h2>Choose Course(s) From the Following:</h2>
             <div>
                 <label>
                     <input type="checkbox" name="Course" value="CS309">
