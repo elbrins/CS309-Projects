@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+nav a.active{
+    font-weight: bold;
+}
+
+#p1 {
+    background-color: red;
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+thead{
+    background-color: orange;
+}
+#tbodyblue{
+    background-color: aqua;
+}
+
+#tbodygray{
+    background-color: lightgray;
+}
+
+#cs309{
+    background-color: yellow;
+}
+
+#cs307{
+    background-color: lightgreen;
+}
+
+#cs305{
+   background-color: blue;
+}
+
+#contactHeader, #contactNav{
+    text-align: center;
+}
+
+.align-center{
+    text-align: center;
+}
+
+#PersonalData{
+    text-align: center;
+}
+
+#Submit{
+ display: block;   
+ margin: 20px auto;
+ background-color: #33ff00;
+ color: rgb(45, 45, 45);
+}

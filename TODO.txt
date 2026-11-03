@@ -1,2 +1,1 @@
 - Download Live Server Demo Extension in VS Code
-- Run Lighthouse (Accessibility) on all 4 pages, light and dark mode

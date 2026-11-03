@@ -1,23 +1,17 @@
-# CS309 Lab Project
+# CS309 Project
 
-HTML and CSS lab project for CS309.
+University lab project for CS309, rebuilt with React.
 
-## Pages
-- `index.html` - home: student table and course cards
-- `about.html` - about
-- `contact.html` - registration form
-- `components.html` - component library (form elements, CSS-only modal, alerts)
+## Run it
 
-## Breakpoints
-| Screen  | Width        | Columns |
-|---------|--------------|---------|
-| Phone   | under 768px  | 1       |
-| Tablet  | 768px and up | 2       |
-| Desktop | 1024px and up| 3       |
+    npm install
+    npm run dev
 
-## Run
-Open the folder in VS Code and start it with the Live Server extension.
+## Structure
 
-## Accessibility check
-Chrome DevTools > Lighthouse > Accessibility only > Analyze page load.
-Run it on every page, once in light mode and once in dark mode.
+    src/
+      main.jsx          entry point
+      App.jsx           routes
+      components/       Header, Footer, Layout
+      pages/            Home, About, Contact
+      css/style.css     styles
